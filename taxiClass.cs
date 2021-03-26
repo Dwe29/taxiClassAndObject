@@ -11,7 +11,7 @@ namespace tugas_Taxi_class_and_object
         public void taxiInfo()
         {
             Console.WriteLine($"Driver Name: {driverName}");
-            if (onDuty)
+            if (onDuty == true)
             {
                 Console.WriteLine("On Duty: Yes");
             }
@@ -30,6 +30,7 @@ namespace tugas_Taxi_class_and_object
         public void dropOfPassenger()
         {
             Console.WriteLine("{0} Selesai Mengantar Penumpang", driverName);
+            Console.WriteLine();
         }
     }
 }

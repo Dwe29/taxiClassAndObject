@@ -8,7 +8,7 @@ namespace tugas_Taxi_class_and_object
         {
             taxi driver = new taxi();
             driver.driverName = "Jono";
-            driver.onDuty = true;
+            driver.onDuty = false;
             driver.numPassenger = 10;
             driver.taxiInfo();
             driver.pickUpPassenger();
